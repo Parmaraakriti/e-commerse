@@ -1,0 +1,128 @@
+.about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.15);
+  }
+  
+  .about-us h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .about-us p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .about-us img {
+    max-width: 100%;
+    margin: 2rem 0;
+  }
+  
+  .about-us .quote {
+    font-style: italic;
+    font-size: 1.6rem;
+    margin: 2rem 0;
+    text-align: center;
+  }
+  
+  .about-us .team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .about-us .team-member {
+    width: 25rem;
+    margin: 2rem;
+    text-align: center;
+  }
+  
+  .about-us .team-member img {
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .about-us .team-member h2 {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-us .team-member p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+  
+  .contact-us-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:auto;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    max-width: 42rem;
+    margin-top: 7rem;
+  }
+  
+  .contact-us-card h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  .contact-us-card form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .contact-us-card label {
+   width: 100%;
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-us-card input,
+  .contact-us-card textarea {
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 0.5rem;
+    border: 2px solid #ddd;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-us-card input:focus,
+  .contact-us-card textarea:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .contact-us-card button {
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+    background-color: #652f9dc7;
+    color: #fff;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .contact-us-card button:hover {
+    background-color: #0062cc;
+  }
+  
